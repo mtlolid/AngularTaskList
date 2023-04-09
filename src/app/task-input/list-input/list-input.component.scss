@@ -1,0 +1,46 @@
+.bold {
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+.edit {
+    width: 40px;
+    height: 30px;
+    background-color: #FFBC00;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+.delete {
+    width: 50px;
+    height: 30px;
+    background-color: #E84541;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.save {
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}

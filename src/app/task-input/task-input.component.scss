@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 90%; 
+    p{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .inputWrap{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 30px;
+        input[type = "text"]{
+            width: 78%;
+        }
+        input[type = "button"]{
+            width: 20%;
+            background-color: #1E9543;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+    }
+}

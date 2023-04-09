@@ -1,0 +1,13 @@
+<div class="wrap">
+    <p>Plan your day!</p>
+    <p>User: Ivanov Ivan.Count of Task {{taskArr.length}}</p>
+    <hr>
+    <div class="inputWrap">
+        <input type="text" [(ngModel)]="task">
+        <input type="button" (click)="addTask()" value="Add">
+    </div>
+    <hr>
+</div>
+
+
+<app-list-input [arrTask] = "taskArr" (newArr)="getArr($event)"></app-list-input>
